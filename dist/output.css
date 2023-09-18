@@ -542,6 +542,10 @@ video {
   top: 0px;
 }
 
+.float-left {
+  float: left;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -621,6 +625,10 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-sm {
