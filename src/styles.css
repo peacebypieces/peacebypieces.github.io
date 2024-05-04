@@ -11,3 +11,7 @@
 .shadow-bottom{
     box-shadow: 0 4px 2px -2px gray;
 }
+
+.bg-gray {
+    background-color: #1e2124;
+}
