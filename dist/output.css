@@ -640,6 +640,10 @@ video {
   width: auto;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
 .items-center {
   align-items: center;
 }
@@ -706,6 +710,11 @@ video {
 
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .p-10 {
@@ -801,6 +810,10 @@ video {
 
   .sm\:w-auto {
     width: auto;
+  }
+
+  .sm\:w-60 {
+    width: 15rem;
   }
 
   .sm\:text-6xl {
