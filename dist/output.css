@@ -586,6 +586,16 @@ video {
   margin-bottom: 20rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -644,6 +654,22 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-1\/4 {
+  height: 25%;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .w-9 {
@@ -731,6 +757,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-red-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity));
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -748,6 +779,11 @@ video {
 .px-80 {
   padding-left: 20rem;
   padding-right: 20rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pl-10 {
