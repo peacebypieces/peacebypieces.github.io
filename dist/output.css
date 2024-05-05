@@ -649,6 +649,10 @@ video {
   margin-top: -12rem;
 }
 
+.-mt-36 {
+  margin-top: -9rem;
+}
+
 .flex {
   display: flex;
 }
@@ -683,6 +687,11 @@ video {
 
 .h-14 {
   height: 3.5rem;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-80 {
@@ -788,6 +797,10 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-center {
