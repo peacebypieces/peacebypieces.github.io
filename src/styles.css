@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .shadow-bottom{
     box-shadow: 0 4px 2px -2px gray;
 }
