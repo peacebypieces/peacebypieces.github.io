@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'flowbite';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 
@@ -12,10 +13,35 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .shadow-bottom{
     box-shadow: 0 4px 2px -2px gray;
 }
 
 .bg-gray {
     background-color: #1e2124;
+}
+
+.bg-thistle {
+    background-color: #dbc2cf;
+}
+
+.bg-cool-gray {
+    background-color: #9FA2B2;
+}
+
+.bg-cerulean {
+    background-color: #3C7A89;
+}
+
+.bg-charcoal {
+    background-color: #2E4756;
+}
+
+.bg-gunmetal {
+    background-color: #16262E;
 }
