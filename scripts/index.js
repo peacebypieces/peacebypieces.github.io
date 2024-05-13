@@ -1,19 +1,19 @@
 const exps = [
     {
-        name: "Alphabet Inc",
+        name: "Online English Tutor",
         dateRange: "2017-2018",
-        description: ""
+        description: "burrito"
 
     },
     {
-        name: "lol",
+        name: "Waiter",
         dateRange: "2020-2011",
         description: "lol",
     },
     {
         name: "Software Engineer Intern",
         dateRange: "Warner Robins Air Force Base (2022-2024) ",
-        description: "burrito man"
+        description: "burrito man<br>hi"
     }
 ]
 
@@ -48,7 +48,7 @@ for (let i = exps.length - 1; i >= 0; i--) {
                 </span>
                 <h3 class="flex items-center mb-1 text-lg font-semibold text-white"> ${exps[i].name}</h3>
                 <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">${exps[i].dateRange}</time>
-                <p class=" text-base font-normal text-gray-500 dark:text-gray-400">${exps[i].description}</p>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">${exps[i].description}</p>
             </li>
         `
         timeline.innerHTML += expContent;

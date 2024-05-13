@@ -9,6 +9,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: repeating-linear-gradient(-45deg, #dbc2cf 0%, #9FA2B2 25%, #3C7A89 50%, #2E4756 75%, #16262E 100%);
+	background-size: 400% 400%;
+	animation: gradient 10s linear infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+      }
+    50% {
+    background-position: 100%;
+    }
+    100% {
+    background-position: 0%;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
