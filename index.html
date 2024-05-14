@@ -14,7 +14,7 @@
     <body class="bg-gunmetal m-0 p-0 max-w-full">
 
         <!--NAVIGATION BAR-->
-        <nav class = "top-0 w-screen fixed flex h-16 justify-between items-center drop-shadow-lg z-10">
+        <nav id="navbar" class = "top-0 w-screen fixed flex h-16 justify-between items-center drop-shadow-lg z-10 bg-transparent">
             <a href = 'index' class = "mr-auto p-0 ml-5 w-9 h-auto hover:brightness-50">
                 <img src="./images/icons/new_logo.png">
             </a>
@@ -73,21 +73,27 @@
         
         </section>
 
-        <section id="experiences" class="bg-charcoal">
+        <section class="bg-cerulean">
             
             <div class=" text-white flex justify-center">
                 <h2 class="text-center text-2xl sm:text-6xl font-bold my-10">Current Experiences</h2>
             </div>
             
-            <ol id="experienceslist" class="relative border-s border-gray-200 left-10 pl-5 ">
-                                  
+            <ol id="experienceslist"  class="relative border-s border-gray-200 dark:border-gray-700 left-10">                  
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"></time>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white"></h3>
+                    <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+                </li>
             </ol>
+            
+            
         </section>
 
         <footer>
-            <p class="bg-inherit text-center text-white border-t-1 border-black bg-charcoal"> Made with 🧋 by Thomas Wang </p>
+            <p class="bg-inherit text-center text-white border-t-1 border-black bg-charcoal"> Made with 🧋 by Thomas Wang a </p>
         </footer>
-
 
     </body>
 </html>
