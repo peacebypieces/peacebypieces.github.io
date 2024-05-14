@@ -1166,6 +1166,11 @@ input[type="range"]::-ms-fill-lower {
   padding-bottom: 4rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pl-10 {
   padding-left: 2.5rem;
 }
